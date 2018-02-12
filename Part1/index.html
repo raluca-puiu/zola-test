@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zola Part 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<!-- Sorting filters -->
+<div class="sort__filters">
+    Sort:
+    <select id="sort__select" onchange="sortBy(this.value)">
+        <option value="featured">Featured</option>
+        <option value="az">Alphabetically</option>
+        <option value="priority">Priority</option>
+    </select>
+
+    <!-- Categories -->
+    Categories: <span id="categories"></span>
+
+    <!-- Filtering options priority -->
+    <div class="filter">
+        <span class="filter__priority">Filter by priority:</span>
+        <input type="radio" id="pf0" name="priorityFilter" value="0" checked onclick="filterByPriority(0)"> All
+        <input type="radio" id="pf1" name="priorityFilter" value="1" onclick="filterByPriority(1)"> <span
+            class="priority_1">Priority 1</span>
+        <input type="radio" id="pf2" name="priorityFilter" value="2" onclick="filterByPriority(2)"> <span
+            class="priority_2">Priority 2</span>
+        <input type="radio" id="pf3" name="priorityFilter" value="3" onclick="filterByPriority(3)"> <span
+            class="priority_3">Priority 3</span>
+        <input type="radio" id="pf4" name="priorityFilter" value="4" onclick="filterByPriority(4)"> <span
+            class="priority_4">Priority 4</span>
+    </div>
+</div>
+
+
+<!-- Person boxes -->
+<div id="boxes"></div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

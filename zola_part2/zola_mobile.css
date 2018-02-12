@@ -1,0 +1,79 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+/* Name Couple */
+.couple__names {
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin:0 0 0 4.23%;
+    padding-top: 36px;
+    padding-bottom: 28px;
+}
+
+/* Image Couple */
+.couple__image {
+    width: 100%;
+    margin-bottom: -11px;
+    display:block;
+}
+
+/* Information Couple */
+.main {
+    text-align: center;
+    background-color: #6cb35d;
+    color: #fff;
+    padding: 0 56px 37px;
+}
+
+
+/* Meeting story*/
+.main__meet__subtitle {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 99px;
+    font-size: 42px;
+}
+
+.main__meet__date {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 34px;
+    padding-bottom: 58px;
+    font-size: 16px
+}
+
+
+/* Story of Meeting & Proposal */
+.main__content {
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 1px
+}
+
+/* Horizontal Line */
+hr {
+    width: 56.54%;
+    margin:29px auto 34px;
+}
+
+
+/* Proposal */
+.main__proposal__subtitle {
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 42px;
+}
+
+.main__proposal__date {
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 60px;
+    font-size: 16px
+}
+
