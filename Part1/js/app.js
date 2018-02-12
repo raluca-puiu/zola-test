@@ -31,7 +31,7 @@ $(document).ready(function () {
  * Get the people and categories from the "server" via AJAX
  */
 function initData() {
-    var url = 'https://raw.githubusercontent.com/raluca-puiu/zola/master/zola-master/Part1/data.json';
+    var url = 'https://raw.githubusercontent.com/raluca-puiu/zola-test/master/Part1/data.json';
 
     $.get(url, function (response) {
         people = $.parseJSON(response).data;
